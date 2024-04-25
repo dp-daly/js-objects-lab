@@ -101,11 +101,13 @@ Solve Exercise 8 here:
 // ! Simple version
 game.party[3] = pokemon[4]
 
-// ! Complex version attempt - doesn't work, played with putting it inside a function to control scope. Any feedback appreciated.
+// ! Complex version attempt - the first two steps work but not the final 'replace if conditions is true' step. I played with putting it inside a function to control scope but no luck. Any feedback appreciated.
 
 
-// ? Find starter for any player
-// function evolvedStarter() {let isStarterName = ""
+// ? Find starter for any player - this part works
+
+// let isStarterName = ""
+
 // for (let i = 0; i < game.party.length; i++) {
 //     if (game.party[i].starter === true) {
 //         isStarter = game.party[i]
@@ -113,17 +115,14 @@ game.party[3] = pokemon[4]
 //     }
 // }
 
-// ? Find evolution of starter (+1 index from pokemon list)
-// let evolvedStarter = pokemon[isStarter.number + 1]
+// ? Find evolution of starter (+1 index from pokemon list) - this part works
+//let evolvedStarter = pokemon[isStarter.number + 1]
 
-// ? Replace with evolved form if the condition is met
-// if (isStarterName !== null) {
+// ? Replace with evolved form if the condition is met - this part doesn't work
+// if (isStarterName !== "") {
 //     isStarter = evolvedStarter
 // }
-// }
 
-// ? Call function
-// evolvedStarter();
 
 /*
 Exercise 9
